@@ -48,7 +48,7 @@ $("#submit-form").on("click", function(event)
 			if (parseInt(data) === -1)
 			{
 				//Indicate that user is the first friend in the log
-				$("#match-name").html("You're the frist friend here!");
+				$("#match-name").html("You're the first person here!");
 				$("#match-picture").attr("src", newFriend.imageLink);
 				$("#match-picture").attr("alt", newFriend.name + " picture");
 
